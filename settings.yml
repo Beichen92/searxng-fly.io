@@ -2,7 +2,7 @@ general:
   # Debug mode, only for development. Is overwritten by ${SEARXNG_DEBUG}
   debug: false
   # displayed name
-  instance_name: "searxng"
+  instance_name: "Freedom"
   # For example: https://example.com/privacy
   privacypolicy_url: false
   # use true to use your own donation page written in searx/info/en/donate.md
@@ -85,11 +85,11 @@ server:
   # If your instance owns a /etc/searxng/settings.yml file, then set the following
   # values there.
 
-  secret_key: "a2fb23f1b02e6ee83875bmemfree0f6bd908b6638e8c10277d415f6ab852b" # Is overwritten by ${SEARXNG_SECRET}
+  secret_key: "6f296b6a94fa2f72bbb5fe106275579b" # Is overwritten by ${SEARXNG_SECRET}
   # Proxying image results through searx
-  image_proxy: false
+  image_proxy: true
   # 1.0 and 1.1 are supported
-  http_protocol_version: "1.0"
+  http_protocol_version: "1.1"
   # POST queries are more secure as they don't show up in history but may cause
   # problems when using Firefox containers
   method: "POST"
